@@ -1,0 +1,169 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color:seashell;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+h2{
+    font-size: 32px;
+    margin: 10px;
+}
+h3{
+    font-size: 28px;
+    margin: 10px;
+}
+h4 {
+    font-size: 22px;
+    margin: 10px;
+
+}
+h5 {
+    font-size: 18px;
+}
+/*----------HEADER -----------*/
+header {
+    display: flex;
+    width: 100%;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    z-index: 9999;
+    top:0;
+
+    
+
+}
+header >img{
+    display: flex;
+    height: 50px;
+    padding-left: 10px;
+}
+nav {
+    display:flex;
+}
+nav > a {
+    padding: 0 10px;
+    text-decoration: underline;
+    font-size: large;
+}
+/*--------SECTION 1---------*/
+.section1{
+    position: relative;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-items: center;
+    height: 700px;
+
+}  
+.section1 > img {
+    max-height: 700px;
+    width: auto;
+} 
+.ourmission{
+    position: absolute;
+    text-align: center;
+    width: 1200px;
+}
+.ourmission >h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/*--------SECTION 2---------*/
+.section2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.inner-container{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+    
+}
+.tom1,.tom2,.tom3,.tom4,.tom5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tom1 >p,.tom2 >p,.tom3 >p,.tom4 >p,.tom5 >p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.tom1 >img, .tom2 >img, .tom3 >img, .tom4 >img, .tom5 >img {
+    max-width: 300px;
+    max-height: 200px;
+    margin-top: 30px;
+}
+/*--------SECTION 3---------*/
+.section3 {
+
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    max-height: 500px;overflow: hidden;
+    opacity: 1;
+    margin-top: 30px;
+}
+.s3-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    background-color: transparent 
+}
+.s3-container >h2 {
+    background-color: transparent;
+}
+.s3-innerC{
+    display:flex;
+    flex-direction: row;
+    opacity: 1;
+    background-color: transparent;
+    
+}
+.downtown, .EastBayside,.Oakdale{
+    width: 300px;
+    margin: 15px 20px;
+    opacity: 1;
+    padding: 20px;
+}
+.downtown > p, .EastBayside > p,.Oakdale > p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*--------SECTION 4---------*/
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+
+
+
+}
+/*---------FOOTER-----------*/
+footer{
+    display: flex;
+    margin:20px;
+    justify-content: start;
+    align-content: center;
+}
